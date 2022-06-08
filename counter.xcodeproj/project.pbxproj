@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4336292F284FD2D200BA5564 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336292E284FD2D100BA5564 /* WatchConnectivityManager.swift */; };
+		43362930284FD2D200BA5564 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336292E284FD2D100BA5564 /* WatchConnectivityManager.swift */; };
+		43C18BD32850029400331CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C42581284AAD23008774EE /* Assets.xcassets */; };
+		43C18BD42850029800331CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C42581284AAD23008774EE /* Assets.xcassets */; };
+		43C18BD5285002A300331CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4258D284AAD25008774EE /* Assets.xcassets */; };
+		43C18BD6285002A600331CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4258D284AAD25008774EE /* Assets.xcassets */; };
 		43C4257E284AAD1C008774EE /* counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4257D284AAD1C008774EE /* counterApp.swift */; };
 		43C42580284AAD1C008774EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4257F284AAD1C008774EE /* ContentView.swift */; };
 		43C42582284AAD23008774EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C42581284AAD23008774EE /* Assets.xcassets */; };
 		43C42585284AAD23008774EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C42584284AAD23008774EE /* Preview Assets.xcassets */; };
-		43C42589284AAD23008774EE /* counter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 43C42588284AAD23008774EE /* counter WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		43C42589284AAD23008774EE /* counter.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 43C42588284AAD23008774EE /* counter.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		43C4258E284AAD25008774EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C4258D284AAD25008774EE /* Assets.xcassets */; };
 		43C42594284AAD25008774EE /* counter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 43C42593284AAD25008774EE /* counter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		43C42599284AAD25008774EE /* counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C42598284AAD25008774EE /* counterApp.swift */; };
@@ -21,6 +27,8 @@
 		43C425A1284AAD25008774EE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C425A0284AAD25008774EE /* ComplicationController.swift */; };
 		43C425A3284AAD26008774EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C425A2284AAD26008774EE /* Assets.xcassets */; };
 		43C425A6284AAD26008774EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C425A5284AAD26008774EE /* Preview Assets.xcassets */; };
+		43C425B8284AC00E008774EE /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C425B7284AC00E008774EE /* Counter.swift */; };
+		43C425B9284AC00E008774EE /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C425B7284AC00E008774EE /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +66,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				43C42589284AAD23008774EE /* counter WatchKit App.app in Embed Watch Content */,
+				43C42589284AAD23008774EE /* counter.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,12 +74,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4336292E284FD2D100BA5564 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchConnectivityManager.swift; path = WatchConnectivity/WatchConnectivityManager.swift; sourceTree = "<group>"; };
 		43C4257A284AAD1C008774EE /* counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C4257D284AAD1C008774EE /* counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterApp.swift; sourceTree = "<group>"; };
 		43C4257F284AAD1C008774EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43C42581284AAD23008774EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C42584284AAD23008774EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		43C42588284AAD23008774EE /* counter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "counter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C42588284AAD23008774EE /* counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C4258D284AAD25008774EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C42593284AAD25008774EE /* counter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "counter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C42598284AAD25008774EE /* counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterApp.swift; sourceTree = "<group>"; };
@@ -83,6 +92,8 @@
 		43C425A5284AAD26008774EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43C425A7284AAD26008774EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C425A8284AAD26008774EE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		43C425B6284AC00E008774EE /* counter WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "counter WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		43C425B7284AC00E008774EE /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +117,7 @@
 		43C42571284AAD1B008774EE = {
 			isa = PBXGroup;
 			children = (
+				4336292E284FD2D100BA5564 /* WatchConnectivityManager.swift */,
 				43C4257C284AAD1C008774EE /* counter */,
 				43C4258C284AAD23008774EE /* counter WatchKit App */,
 				43C42597284AAD25008774EE /* counter WatchKit Extension */,
@@ -117,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				43C4257A284AAD1C008774EE /* counter.app */,
-				43C42588284AAD23008774EE /* counter WatchKit App.app */,
+				43C42588284AAD23008774EE /* counter.app */,
 				43C42593284AAD25008774EE /* counter WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -130,6 +142,8 @@
 				43C4257F284AAD1C008774EE /* ContentView.swift */,
 				43C42581284AAD23008774EE /* Assets.xcassets */,
 				43C42583284AAD23008774EE /* Preview Content */,
+				43C425B7284AC00E008774EE /* Counter.swift */,
+				43C425B6284AC00E008774EE /* counter WatchKit App-Bridging-Header.h */,
 			);
 			path = counter;
 			sourceTree = "<group>";
@@ -210,7 +224,7 @@
 			);
 			name = "counter WatchKit App";
 			productName = "counter WatchKit App";
-			productReference = 43C42588284AAD23008774EE /* counter WatchKit App.app */;
+			productReference = 43C42588284AAD23008774EE /* counter.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		43C42592284AAD25008774EE /* counter WatchKit Extension */ = {
@@ -245,6 +259,7 @@
 					};
 					43C42587284AAD23008774EE = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 					43C42592284AAD25008774EE = {
 						CreatedOnToolsVersion = 13.4;
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C42585284AAD23008774EE /* Preview Assets.xcassets in Resources */,
+				43C18BD5285002A300331CD5 /* Assets.xcassets in Resources */,
 				43C42582284AAD23008774EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C18BD32850029400331CD5 /* Assets.xcassets in Resources */,
 				43C4258E284AAD25008774EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C425A6284AAD26008774EE /* Preview Assets.xcassets in Resources */,
+				43C18BD42850029800331CD5 /* Assets.xcassets in Resources */,
+				43C18BD6285002A600331CD5 /* Assets.xcassets in Resources */,
 				43C425A3284AAD26008774EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +326,8 @@
 			files = (
 				43C42580284AAD1C008774EE /* ContentView.swift in Sources */,
 				43C4257E284AAD1C008774EE /* counterApp.swift in Sources */,
+				4336292F284FD2D200BA5564 /* WatchConnectivityManager.swift in Sources */,
+				43C425B8284AC00E008774EE /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +337,10 @@
 			files = (
 				43C4259D284AAD25008774EE /* NotificationController.swift in Sources */,
 				43C4259B284AAD25008774EE /* ContentView.swift in Sources */,
+				43C425B9284AC00E008774EE /* Counter.swift in Sources */,
 				43C425A1284AAD25008774EE /* ComplicationController.swift in Sources */,
 				43C42599284AAD25008774EE /* counterApp.swift in Sources */,
+				43362930284FD2D200BA5564 /* WatchConnectivityManager.swift in Sources */,
 				43C4259F284AAD25008774EE /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,11 +411,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.1;
 			};
 			name = Debug;
 		};
@@ -440,10 +465,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 8.1;
 			};
 			name = Release;
 		};
@@ -458,8 +485,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "counter WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "counter WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "counter Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = counter_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,8 +517,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "counter WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "counter WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "counter Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = counter_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,20 +545,27 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4S6R3Y39G;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = counter_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "counter WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.blake-ink.counter";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blake-ink.counter.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = counter;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "counter/counter WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
@@ -544,20 +578,26 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4S6R3Y39G;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = counter_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "counter WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.blake-ink.counter";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blake-ink.counter.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = counter;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "counter/counter WatchKit App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
